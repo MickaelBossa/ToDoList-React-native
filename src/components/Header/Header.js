@@ -43,7 +43,7 @@ export default function Header() {
 const styles = StyleSheet.create({
   container: {
     paddingLeft: Dimensions.get('window').width * 0.05,
-    paddingTop: Dimensions.get('window').height * 0.03,
+    marginTop: Dimensions.get('window').height * -0.01,
   },
   date: {
     fontSize: Dimensions.get('window').width * 0.08,
