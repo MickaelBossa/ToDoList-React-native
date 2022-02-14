@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 
 // Composants
-import Tasks from './src/screens/Tasks/Tasks';
+import Tasks from './src/screens/Tasks';
 
 export default function App() {
   LogBox.ignoreLogs(['Remote debugger']);
