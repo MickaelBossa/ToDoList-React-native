@@ -42,11 +42,12 @@ export default function Header() {
 
 const styles = StyleSheet.create({
   container: {
-    paddingLeft: Dimensions.get('window').width * 0.05,
+    marginLeft: Dimensions.get('window').width * 0.04,
     marginTop: Dimensions.get('window').height * -0.01,
   },
   date: {
     fontSize: Dimensions.get('window').width * 0.08,
     fontWeight: 'bold',
+    color: 'black',
   },
 });

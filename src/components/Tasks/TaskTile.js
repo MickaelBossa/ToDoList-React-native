@@ -60,5 +60,6 @@ const styles = StyleSheet.create({
   title: {
     marginLeft: Dimensions.get('window').width * 0.04,
     fontSize: 16,
+    color: 'black',
   },
 });
